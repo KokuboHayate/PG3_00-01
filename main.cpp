@@ -16,6 +16,7 @@ int main()
 {
 	int workinghours;
 
+	printf("何時間働きましたか？->");
 	scanf_s("%d", &workinghours);
 
 	printf("一般的な賃金体系の場合:%d円\n", Normal(workinghours));
