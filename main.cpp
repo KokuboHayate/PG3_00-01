@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-//テンプレート
+//関数テンプレート
 template <typename Type>
 
-
+//２つの引数の値を比べ、小さい値を返す関数
 Type Min(Type num1, Type num2) {
 	if (num1 <= num2) {
 		return static_cast<Type>(num1);
@@ -12,6 +12,7 @@ Type Min(Type num1, Type num2) {
 	}
 }
 
+//オーバーライドによってchar型の場合に「数字以外は代入できません」と返す
 template <>
 char Min<char>(char num1, char num2) {
 	
