@@ -77,13 +77,16 @@ int main()
 	//半か丁かを表示する
 	result = calc(dice);
 
-	//勝ち負けの表示
+	//勝ち負けの表示(ラムダ式)
+	auto Vd = [=, &player](int i) {
+		if (i == player) {
+			printf("君の勝ちだ\n");
+		} else {
+			printf("君の負けだ\n");
+		}
+	};
 
-	if (player == result) {
-		printf("君の勝ちだ\n");
-	} else {
-		printf("君の負けだ\n");
-	}
+	Vd(result);
 
 	return 0;
 }
