@@ -78,6 +78,7 @@ int main()
 	result = calc(dice);
 
 	//勝ち負けの表示
+
 	if (player == result) {
 		printf("君の勝ちだ\n");
 	} else {
