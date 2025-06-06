@@ -10,5 +10,6 @@ public:
 private:
 	int witdh_;
 	int height_;
+	int result_;
 };
 

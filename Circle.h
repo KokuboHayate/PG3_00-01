@@ -9,6 +9,7 @@ public:
 	void Draw() override;
 
 private:
-	float radius_;
+	int radius_;
+	float result_;
 };
 

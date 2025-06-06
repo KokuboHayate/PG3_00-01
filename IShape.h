@@ -5,7 +5,5 @@ public:
 	virtual void Size() = 0;
 	virtual void Draw() = 0;
 
-protected:
-	int result_;
 };
 

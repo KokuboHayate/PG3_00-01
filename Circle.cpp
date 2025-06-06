@@ -7,7 +7,7 @@
 void Circle::Size()
 {
 	radius_ = 5;
-	result_ = radius_ * M_PI;
+	result_ = radius_ * float(M_PI);
 }
 
 void Circle::Draw()

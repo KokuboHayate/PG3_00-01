@@ -11,5 +11,5 @@ void Rectangle::Size()
 
 void Rectangle::Draw()
 {
-	printf("矩形の面積は%fです。\n", result_);
+	printf("矩形の面積は%iです。\n", result_);
 }
