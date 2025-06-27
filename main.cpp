@@ -24,7 +24,7 @@ int main()
 			++itr;
 		}
 	}
-	//1970年時点での駅リストの表示
+	//2019年時点での駅リストの表示
 	printf("2019年 山手線の駅名一覧\n");
 	for (auto itr = eki_list.begin(); itr != eki_list.end(); ++itr) {
 		printf("%s\n", *itr);
