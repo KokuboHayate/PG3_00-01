@@ -20,7 +20,7 @@ int main()
 	//田端の前に西日暮里を入れる
 	for (std::list<const char*>::iterator itr = eki_list.begin(); itr != eki_list.end(); ++itr) {
 		if (*itr == "Tabata") {
-			itr = eki_list.insert(itr, "Nisinippori");
+			itr = eki_list.insert(itr, "Nisi-nippori");
 			++itr;
 		}
 	}
@@ -35,7 +35,7 @@ int main()
 	//田町の前に高輪ゲートウェイを入れる
 	for (std::list<const char*>::iterator itr = eki_list.begin(); itr != eki_list.end(); ++itr) {
 		if (*itr == "Tamachi") {
-			itr = eki_list.insert(itr, "TakanawaGateway");
+			itr = eki_list.insert(itr, "Takanawa Gateway");
 			++itr;
 		}
 	}
