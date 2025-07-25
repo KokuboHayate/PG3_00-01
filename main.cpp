@@ -9,6 +9,7 @@ void PrintText1(char text[]) {
 
 int main() 
 {
+	//表示するテキスト
 	char text1[] = "thread1";
 	char text2[] = "thread2";
 	char text3[] = "thread3";
